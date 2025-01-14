@@ -7,7 +7,7 @@ import { MainComponent } from './main/main.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [LeftSideBarComponent, MainComponent],
+  imports: [LeftSideBarComponent, MainComponent, ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
