@@ -1,13 +1,13 @@
 import { Component, HostListener, OnInit, signal, inject } from '@angular/core';
 import { isPlatformBrowser } from '@angular/common';
 import { PLATFORM_ID } from '@angular/core';
-import { LeftSideBarComponent } from './left-sidebar/left-sidebar.component';
-import { MainComponent } from './main/main.component';
+import { DashboardComponent } from "./dashboard/dashboard.component";
+import { SidebarComponent } from "./sidebar/sidebar.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [LeftSideBarComponent, MainComponent, ],
+  imports: [DashboardComponent, SidebarComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
